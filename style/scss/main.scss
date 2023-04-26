@@ -34,6 +34,7 @@ main{
     margin-top: 50px;
     padding: 50px;
     h2{
+        margin: 0px;
         font-size: 36px;
         color: white;
         font-weight: 800px;
@@ -47,6 +48,10 @@ main{
         text-align: center;
     }
     .bienvenida{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 40px;
         width:99vw;
         background-color: #0E1E2E;

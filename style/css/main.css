@@ -37,6 +37,7 @@ main {
   padding: 50px;
 }
 main h2 {
+  margin: 0px;
   font-size: 36px;
   color: white;
   font-weight: 800px;
@@ -50,6 +51,10 @@ main p {
   text-align: center;
 }
 main .bienvenida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 40px;
   width: 99vw;
   background-color: #0E1E2E;
