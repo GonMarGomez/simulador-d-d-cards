@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/d&dicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/css/main.css">
+    <title>Dungeon Cards Game</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html"><h1>DUNGEON & DRAGONS</h1></a>
+    </header>
+
+    <body>
+        <h2>Elige a tu Héroe o Heroína</h2>
+        <section class="cartasDePersonajes">
+            <div id="cardWarrior" class="cards">
+                <img id="warrior" src="../imagenes/guerrero.jpg" alt="Avatar">
+                <div class="container">
+                    <h2>ALOIS</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div id="cardWise" class="cards">
+                <img  id="wise" src="../imagenes/wise.jpg" alt="Avatar">
+                <div class="container">
+                    <h2>RADAGAST</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div id="cardWitch" class="cards">
+                <img id="witch" src="../imagenes/witch.jpg" alt="Avatar">
+                <div class="container">
+                    <h2>RYUU</h2>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section id="weapons">
+            <h2 class="weapons__title">ELIGE TU ARMA</h2>
+            <div class="weaponSelector"> 
+            <div id="sword" class="cards">
+                <img id="personaje" src="../imagenes/sword.jpg" alt="Avatar">
+                <div class="container">
+                    <h2>Espadas del destino</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div id="potion" class="cards">
+                <img id="personaje" src="../imagenes/potion.jpg" alt="Avatar">
+                <div class="container">
+                    <h2>Pociones del Inframundo</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div id="spellbook" class="cards">
+                <img id="personaje" src="../imagenes/spellbook.jpg" alt="Avatar">
+                <div class="container">
+                    <h2>Libro de la profecia</h2>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+       
+        </section>
+        <h2 id="titleOponente">ELIGE A TU OPONENTE</h2>
+        <h2 id="versus">VS</h2>
+        <section class="cartasDePersonajes">
+            <div id="demond" class="cards">
+                <img src="../imagenes/demond.jpg" alt="Avatar">
+                <div class="container">
+                    <h2>Banshee</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div id="orc" class="cards">
+                <img src="../imagenes/orc.jpg" alt="Avatar">
+                <div class="container">
+                    <h2>Bronco</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div id="enemyWarrior" class="cards">
+                <img src="../imagenes/guerreroEnemigo.jpg" alt="Avatar">
+                <div class="container">
+                    <h2>Overkill</h2>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <div class="botonDePelea">
+            <a href="./personajes.html"><button id="pelear">VOLVER A SELECCIONAR PERSONAJE</button></a>
+        </div>
+        <script type="module" src="../personajes.js"></script>
+    </body>
+
+</html>

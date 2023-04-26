@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Grenze Gotisch", sans-serif;
+}
+
+body {
+  background-color: gray;
+  background-image: url(/imagenes/castle.jpg);
+  object-fit: fill;
+}
+
+header {
+  background-image: linear-gradient(rgb(36, 11, 11), rgb(143, 4, 4));
+  margin: 0px;
+  padding: 20px;
+}
+header h1 {
+  font-size: 42px;
+  text-align: center;
+  color: rgb(252, 252, 252);
+  font-weight: bolder;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 50px;
+}
+main h2 {
+  font-size: 36px;
+  color: white;
+  font-weight: 800px;
+  text-align: center;
+}
+main p {
+  font-size: 28px;
+  text-align: center;
+  color: white;
+  font-weight: 600px;
+  text-align: center;
+}
+main .bienvenida {
+  margin-bottom: 40px;
+  width: 99vw;
+  background-color: #0E1E2E;
+}
+main button {
+  margin-top: 50px;
+  width: 250px;
+  height: 100px;
+  background-image: linear-gradient(rgb(36, 11, 11), rgb(143, 4, 4));
+  filter: drop-shadow(0px 0px 50px rgba(146, 99, 6, 0.45));
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+h2 {
+  margin-top: 50px;
+  font-size: 36px;
+  color: white;
+  font-weight: 800px;
+  text-align: center;
+}
+
+.card {
+  background-image: linear-gradient(#502C16, #77461D);
+  border: solid black;
+  border-radius: 5px 50px 0px 50px;
+}
+.card ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.card ul li {
+  list-style: none;
+  margin: 0px;
+  padding: 5px;
+  border-radius: 5px 50px/50px 15px;
+}
+
+.cartasDePersonajes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 800px) {
+  .cartasDePersonajes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+}
+.cartasDePersonajes p {
+  font-size: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 8px 0 rgb(143, 4, 4);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: #0E1E2E;
+}
+@media screen and (max-width: 800px) {
+  .cards {
+    max-width: 250px;
+  }
+}
+.cards img {
+  width: 20vw;
+  max-width: 400px;
+  border-radius: 5px 5px 0 0;
+}
+@media screen and (max-width: 800px) {
+  .cards img {
+    width: 250px;
+  }
+}
+.cards h2 {
+  color: white;
+  font-size: 22px;
+}
+.cards p {
+  font-size: 16px;
+  color: white;
+}
+
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(146, 99, 6, 0.45);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+#weapons {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 800px) {
+  #weapons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+}
+#weapons img {
+  width: 20vw;
+  max-width: 400px;
+  border-radius: 5px 5px 0 0;
+}
+@media screen and (max-width: 800px) {
+  #weapons img {
+    width: 150px;
+  }
+}
+#weapons h2 {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+#weapons .weapons__title {
+  font-size: 26px;
+}
+#weapons button {
+  text-align: center;
+  margin-top: 50px;
+  width: 200px;
+  height: 100px;
+  background-image: linear-gradient(rgb(36, 11, 11), rgb(143, 4, 4));
+  filter: drop-shadow(0px 0px 50px rgba(146, 99, 6, 0.45));
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.weaponSelector {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.weaponSelector h2 {
+  display: block;
+  color: white;
+}
+.weaponSelector #tituloOponente {
+  display: block;
+}
+
+#versus {
+  display: none;
+}
+
+.botonDePelea {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#pelear {
+  display: none;
+  margin-top: 50px;
+  width: 250px;
+  height: 100px;
+  background-image: linear-gradient(rgb(36, 11, 11), rgb(143, 4, 4));
+  filter: drop-shadow(0px 0px 50px rgba(146, 99, 6, 0.45));
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=main.css.map */
